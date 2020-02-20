@@ -13,8 +13,8 @@ public class task2 {
         myMap.put("2", "qwert");
         myMap.put("3", "zxcv");
         myMap.put("1", "zzz");
-        for (int i = 0; i < 100 ; i++) {
-            myMap.put(String.valueOf(RANDOM.nextInt(2000)),"SSS");
+        for (int i = 0; i < 100; i++) {
+            myMap.put(String.valueOf(RANDOM.nextInt(2000)), "SSS");
         }
         System.out.println(myMap); // [1=zzz, 2=qwert, 3=zxcv]
         String key = "3";
@@ -24,7 +24,6 @@ public class task2 {
         if (myMap.containsKey(key)) {
             System.out.println(myMap.get(key));
         }
-
 
 
         MySet set = new MyHashSet();

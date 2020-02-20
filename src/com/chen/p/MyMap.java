@@ -4,7 +4,9 @@ public interface MyMap {
 
     interface Entry {
         String getKey();
+
         String getValue();
+
         void setValue(String value);
     }
 
